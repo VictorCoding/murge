@@ -1,0 +1,19 @@
+{
+  "name": "Murge",
+  "version": "1.0",
+  "description": "Auto-merge github pull requests",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/iOffice/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
