@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "webpack": "4.35.0"
+    "webpack": "5.75.0"
   },
   "devDependencies": {
-    "ts-loader": "6.0.4",
+    "ts-loader": "9.4.2",
     "typescript": "3.5.2",
-    "webpack-cli": "3.3.4"
+    "webpack-cli": "5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
